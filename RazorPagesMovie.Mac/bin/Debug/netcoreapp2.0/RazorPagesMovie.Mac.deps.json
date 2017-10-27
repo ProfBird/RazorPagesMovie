@@ -21,17 +21,17 @@
   },
   "targets": {
     ".NETCoreApp,Version=v2.0": {
-      "RazorPagesMovie/1.0.0": {
+      "RazorPagesMovie.Mac/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.All": "2.0.0",
           "Microsoft.NETCore.App": "2.0.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.0.0"
         },
         "runtime": {
-          "RazorPagesMovie.dll": {}
+          "RazorPagesMovie.Mac.dll": {}
         },
         "compile": {
-          "RazorPagesMovie.dll": {}
+          "RazorPagesMovie.Mac.dll": {}
         }
       },
       "Libuv/1.10.0": {
@@ -4233,7 +4233,7 @@
     }
   },
   "libraries": {
-    "RazorPagesMovie/1.0.0": {
+    "RazorPagesMovie.Mac/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

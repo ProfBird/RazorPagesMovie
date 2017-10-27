@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26730.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie", "RazorPagesMovie\RazorPagesMovie.csproj", "{BF4DE72C-8BF9-4A37-A2D3-C4D9F614898A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RazorPagesMovie.Mac", "RazorPagesMovie.Mac\RazorPagesMovie.Mac.csproj", "{9CE4D0D3-661B-452D-9929-321051453CD6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{BF4DE72C-8BF9-4A37-A2D3-C4D9F614898A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF4DE72C-8BF9-4A37-A2D3-C4D9F614898A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF4DE72C-8BF9-4A37-A2D3-C4D9F614898A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CE4D0D3-661B-452D-9929-321051453CD6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CE4D0D3-661B-452D-9929-321051453CD6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CE4D0D3-661B-452D-9929-321051453CD6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CE4D0D3-661B-452D-9929-321051453CD6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

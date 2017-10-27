@@ -1,0 +1,16 @@
+﻿<Properties StartupConfiguration="{9CE4D0D3-661B-452D-9929-321051453CD6}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="RazorPagesMovie.Mac/Startup.cs">
+    <Files>
+      <File FileName="RazorPagesMovie.Mac/appsettings.json" Line="11" Column="2" />
+      <File FileName="RazorPagesMovie.Mac/Startup.cs" Line="10" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.RazorPagesMovie PreferredExecutionTarget="MonoDevelop.Default" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.RazorPagesMovie.Mac PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>
