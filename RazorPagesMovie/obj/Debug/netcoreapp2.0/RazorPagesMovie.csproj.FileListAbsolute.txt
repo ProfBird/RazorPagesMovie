@@ -20,3 +20,14 @@ C:/Repos/RazorPagesMovie/RazorPagesMovie/obj/Debug/netcoreapp2.0/RazorPagesMovie
 /Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/obj/Debug/netcoreapp2.0/RazorPagesMovie.AssemblyInfo.cs
 /Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/obj/Debug/netcoreapp2.0/RazorPagesMovie.dll
 /Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/obj/Debug/netcoreapp2.0/RazorPagesMovie.pdb
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.deps.json
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.runtimeconfig.json
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.runtimeconfig.dev.json
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.dll
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\bin\Debug\netcoreapp2.0\RazorPagesMovie.pdb
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.csprojResolveAssemblyReference.cache
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.csproj.CoreCompileInputs.cache
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.AssemblyInfoInputs.cache
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.AssemblyInfo.cs
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.dll
+C:\Users\brian\Repos\RazorPagesMovie\RazorPagesMovie\obj\Debug\netcoreapp2.0\RazorPagesMovie.pdb

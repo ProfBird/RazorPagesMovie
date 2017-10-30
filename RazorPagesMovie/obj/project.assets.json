@@ -6065,7 +6065,7 @@
       ]
     },
     "Microsoft.CodeAnalysis.Analyzers/1.1.0": {
-      "sha512": "rbYUCKySQIpuYA/ZK6tadLTUF/KkwuouZwOZiHrZe8V1Z14TT5ikOa0ZtCBk95/JyH5FCyqd9ew4xEh0ubfaPQ==",
+      "sha512": "HS3iRWZKcUw/8eZ/08GXKY2Bn7xNzQPzf8gRPHGSowX7u7XXu9i9YEaBeBNKUXWfI7qjvT2zXtLUvbN0hds8vg==",
       "type": "package",
       "path": "microsoft.codeanalysis.analyzers/1.1.0",
       "files": [
@@ -10175,7 +10175,7 @@
       ]
     },
     "System.Linq.Queryable/4.0.1": {
-      "sha512": "eaafaalO4Yeg7BVhyfqAsfmCpiQWOy4RvXbe0XZPwkqQFmmuJOp2/SiTSlCLzjuFWqaWkYgjfc/QrWX7mBX8UQ==",
+      "sha512": "Yn/WfYe9RoRfmSLvUt2JerP0BTGGykCZkQPgojaxgzF2N0oPo+/AhB8TXOpdCcNlrG3VRtsamtK2uzsp3cqRVw==",
       "type": "package",
       "path": "system.linq.queryable/4.0.1",
       "files": [
@@ -13115,29 +13115,35 @@
     ]
   },
   "packageFolders": {
-    "/Users/admin/.nuget/packages/": {},
-    "/usr/local/share/dotnet/sdk/NuGetFallbackFolder": {}
+    "C:\\Users\\brian\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
+    "restoreSettings": {
+      "hideWarningsAndErrors": true
+    },
     "restore": {
-      "projectUniqueName": "/Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie.csproj",
+      "projectUniqueName": "C:\\Users\\brian\\Repos\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
       "projectName": "RazorPagesMovie",
-      "projectPath": "/Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/RazorPagesMovie.csproj",
-      "packagesPath": "/Users/admin/.nuget/packages/",
-      "outputPath": "/Volumes/DataCard/Repos/RazorPagesMovie/RazorPagesMovie/obj/",
+      "projectPath": "C:\\Users\\brian\\Repos\\RazorPagesMovie\\RazorPagesMovie\\RazorPagesMovie.csproj",
+      "packagesPath": "C:\\Users\\brian\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\brian\\Repos\\RazorPagesMovie\\RazorPagesMovie\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "/Users/admin/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\brian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp2.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://www.myget.org/F/aspnet-contrib/api/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp2.0": {
@@ -13153,16 +13159,16 @@
     "frameworks": {
       "netcoreapp2.0": {
         "dependencies": {
+          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+            "target": "Package",
+            "version": "2.0.0"
+          },
           "Microsoft.NETCore.App": {
             "target": "Package",
             "version": "2.0.0",
             "autoReferenced": true
           },
           "Microsoft.AspNetCore.All": {
-            "target": "Package",
-            "version": "2.0.0"
-          },
-          "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "2.0.0"
           }

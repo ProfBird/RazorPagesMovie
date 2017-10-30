@@ -1,15 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Threading.Tasks;
 using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-using RazorPagesMovie.Mac.Models;
+using RazorPagesMovie.Models;
 
 namespace RazorPagesMovie
 {
@@ -25,7 +20,6 @@ namespace RazorPagesMovie
 
                 try
                 {
-                    // Requires using RazorPagesMovie.Models;
                     SeedData.Initialize(services);
                 }
                 catch (Exception ex)
