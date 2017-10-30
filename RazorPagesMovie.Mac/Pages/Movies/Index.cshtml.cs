@@ -20,9 +20,26 @@ namespace RazorPagesMovie.Mac.Pages.Movies
 
         public IList<Movie> Movie { get;set; }
 
+        /*
         public async Task OnGetAsync()
         {
             Movie = await _context.Movie.ToListAsync();
+        }
+        */
+        
+        // Search for a movie by title
+        public async Task OnGetAsync(string searchString)
+        {
+            var movies = from m in _context.Movie
+                        select m;
+
+            if (!String.IsNullOrEmpty(searchString))
+            {
+                movies = movies.Where(s => s.Title.Contains(searchString));
+            }
+            // Return the movie with the specified title, or 
+            // all movies in the database if no title was specified
+            Movie = await movies.ToListAsync();
         }
     }
 }
