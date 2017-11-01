@@ -3,7 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Linq;
 
-namespace RazorPagesMovie.Models
+namespace RazorPagesMovie.Mac.Models
 {
     public static class SeedData
     {

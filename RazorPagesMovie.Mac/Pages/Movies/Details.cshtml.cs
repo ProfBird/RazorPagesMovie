@@ -5,15 +5,15 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
+using RazorPagesMovie.Mac.Models;
 
 namespace RazorPagesMovie.Mac.Pages.Movies
 {
     public class DetailsModel : PageModel
     {
-        private readonly RazorPagesMovie.Models.MovieContext _context;
+        private readonly RazorPagesMovie.Mac.Models.MovieContext _context;
 
-        public DetailsModel(RazorPagesMovie.Models.MovieContext context)
+        public DetailsModel(RazorPagesMovie.Mac.Models.MovieContext context)
         {
             _context = context;
         }

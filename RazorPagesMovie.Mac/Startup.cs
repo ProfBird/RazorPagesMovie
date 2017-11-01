@@ -4,7 +4,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 
-using RazorPagesMovie.Models;
+using RazorPagesMovie.Mac.Models;
 
 namespace RazorPagesMovie.Mac
 {

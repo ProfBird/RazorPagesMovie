@@ -9,7 +9,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
 
-using RazorPagesMovie.Models;
+using RazorPagesMovie.Mac.Models;
 
 namespace RazorPagesMovie.Mac
 {
@@ -25,7 +25,7 @@ namespace RazorPagesMovie.Mac
 
                 try
                 {
-                    // Requires using RazorPagesMovie.Models;
+                    // Requires using RazorPagesMovie.Mac.Models;
                     SeedData.Initialize(services);
                 }
                 catch (Exception ex)

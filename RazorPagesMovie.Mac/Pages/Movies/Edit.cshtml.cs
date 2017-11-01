@@ -6,15 +6,16 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-using RazorPagesMovie.Models;
+
+using RazorPagesMovie.Mac.Models;
 
 namespace RazorPagesMovie.Mac.Pages.Movies
 {
     public class EditModel : PageModel
     {
-        private readonly RazorPagesMovie.Models.MovieContext _context;
+        private readonly MovieContext _context;
 
-        public EditModel(RazorPagesMovie.Models.MovieContext context)
+        public EditModel(MovieContext context)
         {
             _context = context;
         }
@@ -53,7 +54,14 @@ namespace RazorPagesMovie.Mac.Pages.Movies
             }
             catch (DbUpdateConcurrencyException)
             {
-                
+                if (!_context.Movie.Any(e => e.ID == Movie.ID))
+                {
+                    return NotFound();
+                }
+                else
+                {
+                    throw;
+                }                
             }
 
             return RedirectToPage("./Index");

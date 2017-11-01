@@ -5,8 +5,9 @@ using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage;
 using Microsoft.EntityFrameworkCore.Storage.Internal;
-using RazorPagesMovie.Models;
 using System;
+
+using RazorPagesMovie.Mac.Models;
 
 namespace RazorPagesMovie.Mac.Migrations
 {
@@ -19,7 +20,7 @@ namespace RazorPagesMovie.Mac.Migrations
             modelBuilder
                 .HasAnnotation("ProductVersion", "2.0.0-rtm-26452");
 
-            modelBuilder.Entity("RazorPagesMovie.Models.Movie", b =>
+            modelBuilder.Entity("RazorPagesMovie.Mac.Models.Movie", b =>
                 {
                     b.Property<int>("ID")
                         .ValueGeneratedOnAdd();
