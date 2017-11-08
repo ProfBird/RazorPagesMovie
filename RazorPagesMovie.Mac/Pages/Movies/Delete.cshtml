@@ -36,12 +36,13 @@
         <dd>
             @Html.DisplayFor(model => model.Movie.Price)
         </dd>
-<dt>
+        <dt>
             @Html.DisplayNameFor(model => model.Movie.Rating)
         </dt>
         <dd>
             @Html.DisplayFor(model => model.Movie.Rating)
-        </dd>    </dl>
+        </dd>    
+    </dl>
     
     <form method="post">
         <input type="hidden" asp-for="Movie.ID" />
