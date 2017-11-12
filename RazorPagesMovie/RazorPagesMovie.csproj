@@ -3,11 +3,18 @@
     <TargetFramework>netcoreapp2.0</TargetFramework>
   </PropertyGroup>
   <ItemGroup>
+    <None Remove="Properties\PublishProfiles\RazorPagesMovie-bidb - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\RazorPagesMovie-birdb - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\RazorPagesMovie20171111022654 - Web Deploy.pubxml" />
+    <None Remove="Properties\PublishProfiles\RazorPagesMovie20171111081521 - Web Deploy.pubxml" />
+  </ItemGroup>
+  <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.All" Version="2.0.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.0" />
+    <DotNetCliToolReference Include="Microsoft.EntityFrameworkCore.Tools.DotNet" Version="2.0.0" />
   </ItemGroup>
   <ItemGroup>
     <Content Update="Pages\Index.cshtml">
@@ -19,5 +26,8 @@
     <Content Update="Pages\_Layout.cshtml">
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\PublishProfiles\" />
   </ItemGroup>
 </Project>
